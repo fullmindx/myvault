@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Soma</title>
+</head>
+<body>
+    <script>
+    var n1 = prompt("N1:")
+    var n2=  prompt("N2:")
+    var n3 = prompt("N3:")
+    n1 = parseFloat(n1);
+    n2 = parseFloat(n2);
+    n3 = parseFloat(n3);
+    md = (n1+n2+n3)/3;
+    document.write("Média: "+md+"<br>");
+    if (md>=7){
+        sit="aprovado";
+    }else
+    if (md< 5){
+      sit="Reprovado";
+
+    }else  {
+       sit="Recuperação";
+
+    }
+    document.write("Situação"+sit);
+
+    
+    
+    </script>
+    
+
+</body>
+</html>
